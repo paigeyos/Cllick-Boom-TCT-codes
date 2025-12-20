@@ -1,0 +1,420 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 5,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 1804,
+            "display_year": "1804 - click, boom",
+            "summary": "<h3 style=\"color:#0000;\">haha<h2>\n<h2\nstyle=\"color:#8b0000;\">THE YEAR IS 1801.</h3>\n<p>\n\nThe republic is young.<br>\n<p>\n<b\nstyle=\"color:#1b2e83;\">Aaron Burr sits in the President’s chair</b>.\n</p>\n<h3 style=\"color:#0000;\">choose wisely.<h2>\n",
+            "image_url": "https://i.imgur.com/nodwbkW.png",
+            "winning_electoral_vote_number": 89,
+            "advisor_url": "https://i.imgur.com/uqhVYZf.png",
+            "recommended_reading": `<h2>Message and Thanks</h2> <h3>by DotCom</h3> <div style="display:flex;justify-content:space-between;align-items:flex-start;"> <div style="max-width:60%;margin-right:2em;"> <p>Win or lose, Aaron Burr has always been an interesting figure in history to me.</p> <p>The guy wasn't even known about by the general public until <a href="https://en.wikipedia.org/wiki/Hamilton_(musical)">Hamilton</a> (the musical) came around in the 2010s. For those that did know about him though, he was painted as this villanous troublemaker who wanted America to burn.</p> <p>If you’re reading this, it means you know that this isn't the case, and that Burr was actually a main source of <i>"progressive"</i> values (for his time). I made this mod to further spread that truth. He wasn't a saint by any means (I mean, who was back then), but he was a person. A person who shouldn't be put on a pedestal, or made into a villain, or made into an idol, because he was just a guy who <b>REALLY</b> wanted to be President.</p></div> <div style="text-align:center;"> <img src="https://i.imgur.com/jbah1JB.png" style="max-height:200px;width:auto;"> </div> </div> <hr/> <p>I hope you enjoyed playing this mod! If this is your first go around, make sure to play it a few more times, as there's more than one path you can take. Thank you!</p>`,
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "1804 - click, boom"
+    }
+]
+
+campaignTrail_temp.difficulty_level_json = JSON.parse("[{\"model\": \"campaign_trail.difficulty_level\", \"pk\": 1, \"fields\": {\"name\": \"Beginner\", \"multiplier\": 1.1}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 3, \"fields\": {\"name\": \"Normal\", \"multiplier\": 0.97}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 4, \"fields\": {\"name\": \"Challenging\", \"multiplier\": 0.95}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 5, \"fields\": {\"name\": \"Throwaway\", \"multiplier\": 0.93}}]");
+
+campaignTrail_temp.credits = "Not Dan Bryan"
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 131,
+        "fields": {
+            "first_name": "Aaron",
+            "last_name": "Burr",
+            "election": 20,
+            "party": "Democratic-Republican",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p><h3>Aaron Burr shouldn't be here.</h2></p>\n\n<p>After defying all odds and winning the presidency in the 1801 contingent presidential election, he is left wondering why he is here and what he should do.</p>\n\n<p>Burr must now shape his political views and strike a balance to keep Federalists and Democratic-Republicans from revolting against his administration. As someone who has previously never laid any major political opinions out, Burr must now take a stand and continue the prosperity of the United States of America.",
+            "color_hex": "#3f623c",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/dzWZ7PN.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 137,
+        "fields": {
+            "first_name": "Thomas",
+            "last_name": "Jefferson",
+            "election": 20,
+            "party": "Democratic-Republican",
+            "state": "Virginia",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#3f623c",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/CWAlVPm.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p><h3>It didn't feel like real life.</h2></p>\n\n<p>On the 36th ballot, Aaron Burr had pushed on to the finish line.</p>\n\n<table>\n  <tr>\n    <th>Burr</th>\n    <th>Jefferson</th>\n    <th>Blank</th>\n  </tr>\n  <tr>\n    <td>9</td>\n    <td>6</td>\n    <td>1</td>\n  </tr>\n  <tr>\n  </tr>\n</table>\n\n<p>Thomas Jefferson was left with the award that second place brings: the Vice Presidency</p>\n\n<p>Now, Burr must work with Jefferson and give him influence in the administration, or else he should expect to face him in the next presidential election.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 133,
+        "fields": {
+            "first_name": "Alexander",
+            "last_name": "Hamilton",
+            "election": 20,
+            "party": "Federalist",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#bc9467",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 14582,
+        "fields": {
+            "first_name": "",
+            "last_name": "Dem-Rep Opposition",
+            "election": 20,
+            "party": "",
+            "state": "",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#054e66",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 14605,
+        "fields": {
+            "first_name": "",
+            "last_name": "Fed Opposition",
+            "election": 20,
+            "party": "",
+            "state": "",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#84244b",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 133709,
+        "fields": {
+            "candidate": 131,
+            "running_mate": 137
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            131,
+            133,
+            14582,
+            14605
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            131,
+            133,
+            14582,
+            14605
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#151515",
+    "windowColor": "#151515",
+    "containerColor": "#525252",
+    "innerWindowColor": "#525252",
+    "bannerImageUrl": "https://i.imgur.com/YAiOkS1.png",
+    "backgroundImageUrl": "https://i.imgur.com/4InrgNP.png",
+    "endingTextColor": "#000000",
+    "customQuote": "",
+    "gameTitle": "openly campaigning trail"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>openly campaigning trail</h2>\n            ';
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://i.imgur.com/xptQJD1.jpeg");
+
+// Election night descs
+e.ElectionPopup = "Time's up, Mr. President."
+e.WinPopup = "History has its eyes on you."
+e.LosePopup = "Now I’m the villain in your history."
+e.SelAnsContText = "Please make your decision, Mr. President."
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#151515";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#151515";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#525252";
+
+document.getElementById("header").src = "https://i.imgur.com/YAiOkS1.png";
+
+document.body.background = "https://i.imgur.com/4InrgNP.png";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#525252!important;}</style>";  
+
+  
+        
+  
+  
+  
+
+  
+  
+  e = campaignTrail_temp
+  
+  document.head.innerHTML += `
+  <link rel="stylesheet" href="https://kexanie.github.io/csswin10">
+  <style>
+  h3 {
+    font-size: 1.025em !important;
+    line-height: 17px;
+}
+label {
+    font-size: 0.9em !important; 
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+    line-height: 1.0; 
+}
+input {
+    font-size: 0.9em !important; 
+    line-height: 17px; 
+}
+
+  
+  #game_window{max-width:1000px;}
+  </style>`
+  let contentBox = document.getElementsByClassName("content_box")[0];
+  let contentSingle = document.getElementsByClassName("content_single")[0];
+  
+  let containerRef = document.getElementsByClassName("container")[0];
+  
+  function createBanner(url, sibling, isLeft) {
+    let div = document.createElement("DIV");
+    let img = document.createElement("IMG");
+    div.style.position = "relative";
+    div.style.margin = "auto";
+    img.src = url;
+    
+    
+  
+    let x = document.createElement("DIV");
+    x.innerText = "_";
+    x.style.position = "absolute";
+    x.style.padding = "2px";
+    x.style.fontSize = "2pt";
+    x.style.cursor = "pointer";
+  
+    div.appendChild(x);
+  
+    div.appendChild(img);
+  
+    if(isLeft) {
+        sibling.parentNode.insertBefore(div, sibling);
+    }
+    else {
+        sibling.parentNode.appendChild(div);
+    }
+    x.onclick = () => div.style.visibility = "hidden";
+    x.onclick = () => img.style.visibility = "hidden";
+    return img;
+  }
+  
+  function addDynamicCSS() {
+    var css = `
+  
+        label {
+          cursor:default;
+        }
+  
+        .inner_window_question h3 .mytooltip{
+            background-color: lightgray;
+        }
+  
+        .mytooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            background-color:  lightgray;
+        }
+  
+        .mytooltip .mytooltiptext {
+            width: 240px;
+            background-color:  lightgray;
+            color: black;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px;
+            position: absolute;
+            z-index: 99;
+            bottom: 20%;
+            left: 20%;
+            margin-left: -90px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border: 1px solid black;
+            pointer-events: none;
+            font-size: 13px !important;
+            line-height: 1.5em !important;
+            font-weight: normal !important;
+            font-style: normal !important;
+        }
+  
+        .mytooltip .mytooltiptext img {
+            max-width: 240px;
+            height: auto;
+        }
+  
+        .mytooltip:hover .mytooltiptext {
+            opacity: 1;
+            transition-delay: 0.5s;
+        }
+    `;
+  
+    var styleElem = document.createElement('style');
+    styleElem.type = 'text/css';
+    
+    styleElem.appendChild(document.createTextNode(css));
+    
+    document.head.appendChild(styleElem);
+  }
+  
+  
+  addDynamicCSS();
+    
+    tooltipList = [
+      // Q1
+      {searchString: "1801 contingent presidential election", explanationText: "<img src=https://i.imgur.com/rKsjfwo.png> An Election for the History Books"},
+      {searchString: "Hamilton", explanationText: "<img src=https://i.imgur.com/tuGsc2m.png> The 1st Treasury Secretary, Revolutionary War Veteran, and your rival"},
+      {searchString: "Jefferson", explanationText: "<img src=https://i.imgur.com/EMeLusA.png> The 1st Secretary of State, 2nd Vice President, and your opponent in the Election of 1800"},
+      {searchString: "Federalists", explanationText: "<img src=https://i.imgur.com/6GVUSPT.png> One of the two major political parties"},
+
+    ];
+
+
+      RecReading=true
+    
+  // Select the node that will be observed for mutations
+  const windowsAdvisorTargetNode = document.getElementById("game_window");
+  
+  // Options for the observer (which mutations to observe)
+  const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+  
+  // Callback function to execute when mutations are observed
+  const callback = (mutationList, observer) => {
+      visitWindow = document.getElementsByClassName("overlay_window")[0];
+  
+      if(visitWindow == null || visitWindow.classList.contains("done")) {
+          return;
+      }
+      visitWindow.classList.add("done");
+      visitWindow.classList.add("window");
+      let titleBar = visitWindow.querySelector("h3");
+      titleBar.classList.add("title-bar");
+      titleBar.classList.add("title-bar-text")
+      titleBar.style.paddingLeft = "3px";
+  };
+
+HistHexcolour = ["#445D3C", "#BC9467", "#054E66"];
+HistName = ["Aaron Burr", "Rufus King (Replacing Alexander Hamilton <b>†</b>)", "Others"];
+HistEV = [99, 77, 0];
+HistPV = ["72,069", "68,432", "4,823"];
+HistPVP = ["49.5%", "47.0%", "3.5%"];
+
+//#endcode
