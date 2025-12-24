@@ -2,7 +2,7 @@ document.getElementById("inner_window_1").children[0].innerHTML=`<h3>Do you have
 
 document.getElementById("inner_window_1").children[1].innerHTML = `<li>As President Aaron Burr, attempt to keep everyone satisfied as you do your patriotic duty and stay prepared for the 1804 Election.</li>
 <li>This mod features tooltips as a tool for worldbuilding and advisor opinions. It is reccomended that you pay attention to the <i>advisor</i> tooltips <span class=\'mytooltip\' style="background-color:lightgray;">like these.<span class=\'mytooltiptext\'><b>This is an advisor tooltip.</b><br>These tooltips tell you your advisors opinions on answer options. <i>Advisors may be wrong.</i></span></span> There are also <i>image</i> tooltips <span class=\'mytooltip\' style="background-color:lightgray;">such as these.<span class=\'mytooltiptext\'><img src=https://i.imgur.com/zxrG22V.png></span></span> These can be ignored without hurting your experience.</li>
-<li>Spend your time trying to walk the line of satisfaction, or pander to specific groups as you attempt to please the nation.</li><li>This mod is made to be replayed, and if you enjoy it, I recommend you do.</li><li>This mod includes music. It is recommended as I think it adds to the atmosphere, but is not required at all.</li><li>Good luck, Mr President.</li>`; 	
+<li>Spend your time trying to walk the line of satisfaction, or pander to specific groups as you attempt to please the nation.</li><li>This mod includes music. It is recommended as I think it adds to the atmosphere, but is not required at all.</li><li>This mod is made to be replayed, and if you enjoy it, I recommend you do.</li><li>Good luck, Mr President.</li>`; 	
 
 
 campaignTrail_temp.global_parameter_json = [

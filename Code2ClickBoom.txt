@@ -3773,69 +3773,9 @@ endingPicker = (out, totv, aa, quickstats) => {
     }
 }
 
-
-
-campaignTrail_temp.jet_data = [{
-    "cyoa_enabled": true,
-    "cyoa_data": {},
-    "banner_enabled": true,
-    "banner_data": {
-        "canName": "Burr",
-        "runName": "Jefferson",
-        "canImage": "https://i.imgur.com/dzWZ7PN.png",
-        "runImage": "https://i.imgur.com/CWAlVPm.png"
-    },
-    "nicknames": {
-        "131": "Burr",
-        "132": "VPJeff",
-        "133": "HamJeffPick",
-        "14582": "OtherDemRep",
-        "14605": "OtherFed"
-    },
-    "endings_enabled": true,
-    "ending_data": {
-        "1766033514995": {
-            "id": 1766033514995,
-            "variable": 0,
-            "operator": ">",
-            "value": 0,
-            "endingImage": "https://i.imgur.com/0O6Gawa.png",
-            "endingText": "<p><h2>How \"Burr\" Forever Changed Broadway</h2></p>\n<p><h5><span style=\"color:#0000EE;\">JOHN DEARBORN SMITH</span> | GRAMMYs / Aug 6, 2025 - 09:15 am</h5></p>\n<p>When the historical musical \"Burr\" premiered on Broadway on Aug. 6, 2015, it almost immediately revolutionized Broadway.</p>\n\n<p>\"Burr\" tells the story of the 3rd President Aaron Burr's involvement in the Revolutionary War, his rivalry with Alexander Hamilton, his Presidency, and his end. Hamilton narrates the show and famous figures such as Washington, Jefferson, Pinckney, and others are supporting characters.</p>\n\n<p>The show did live up to its hype. \"Burr\" won big at the 2016 Tony Awards (it took home 11 trophies including Best Musical) and won the GRAMMY Award for Best Musical Theatre Album. The cast performed at the 2015 GRAMMYs via satellite from New York — only the eighth time musical theater had been featured during Music's Biggest Night.</p>\n\n<p>Ten years into its run, the show is still going strong.</p>\n\n",
-            "amount": "90"
-        },
-        "1766033532142": {
-            "id": 1766033532142,
-            "variable": 0,
-            "operator": "==",
-            "value": 0,
-            "endingImage": "",
-            "endingText": "",
-            "amount": "89"
-        },
-        "1766033538985": {
-            "id": 1766033538985,
-            "variable": 0,
-            "operator": "<",
-            "value": 0,
-            "endingImage": "",
-            "endingText": "sucks",
-            "amount": "88"
-        }
-    },
-    "mapping_enabled": false,
-    "mapping_data": {}
-}
-]  
-
 campaignTrail_temp.cyoa = true
 
 ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length-1];
-
-function getQuestionNumberFromPk(pk) {
-
-return campaignTrail_temp.questions_json.map(q=>q.pk).indexOf(pk)-1;
-
-}
 
 function tunnel(new_q){
 
@@ -3843,9 +3783,11 @@ return e.questions_json[e.questions_json.map(f=>f.pk).indexOf(new_q)];
 
 }
 
-cyoAdventure = function (a) { if (ans == 14499) {  campaignTrail_temp.questions_json[3] == tunnel(14654);
+cyoAdventure = function (a) { if (ans = 14498) {  campaignTrail_temp.questions_json[2] = tunnel(14654);   }
 
-}
+if (ans = 14549) {
+  unlockAchievement("Before The Fall");
+    }
 
 }
 
