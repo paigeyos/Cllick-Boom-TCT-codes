@@ -1131,6 +1131,7 @@ input {
       // Q2
       {searchString: "Madison", explanationText: "<img src=https://i.imgur.com/pHz7jhw.png> "},
       {searchString: "It has to be Madison", explanationText: "<b>Your advisors don't think this is a good idea.</b><br><i>You made a deal with the Federalists when you got them to vote you into office, Mr. President. They would probably like to see one of their own in your cabinet.</i>"},
+      {searchString: "It has to be Hamilton", explanationText: "<b>Your advisors don't think this is a good idea.</b><br><i>You made a deal with the Democratic-Republicans when you got them to vote you into office, Mr. President. They would probably like to see one of their own in your cabinet.</i>"},
       {searchString: "President of the United States", explanationText: "<img src=https://i.imgur.com/JFs1Bph.png> "},
       {searchString: "Rufus King", explanationText: "<img src=https://i.imgur.com/cpg1BFA.png> "},
       // Q3
@@ -1140,6 +1141,7 @@ input {
       // Q4
       {searchString: "financial system", explanationText: "<img src=https://i.imgur.com/zTMeYOs.png> "},
       {searchString: "All the way", explanationText: "<b>Your advisors don't think this is a good idea.</b><br><i>You made a deal with the Federalists when you got them to vote you into office, Mr. President. They may take personal offense to this action.</i>"},
+      {searchString: "Let's hold off on a repeal", explanationText: "<b>Your advisors don't think this is a good idea.</b><br><i>You made a deal with the Democratic-Republicans when you got them to vote you into office, Mr. President. They may take personal offense to this action.</i>"},
       // Q5
       {searchString: "Congress", explanationText: "<img src=https://i.imgur.com/zxrG22V.png> "},
       {searchString: "Get Sedgwick and Macon in my office", explanationText: "<b>Jefferson doesn't think anything will come out of this.</b><br><i>You built your campaign on walking the line, but now you have to take a stand and show the people what kind of man you are, Aaron.</i>"},
